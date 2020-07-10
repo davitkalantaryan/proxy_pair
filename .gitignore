@@ -2,3 +2,11 @@
 *~
 *.obj
 *.pro.user*
+
+workspaces/*/*
+!workspaces/*/*.pro
+
+prj/*/*/*
+prj/*/*/*/*
+!prj/*/*_qt/*.pri
+!prj/*/*_qt/*.pro
